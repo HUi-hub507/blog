@@ -9,18 +9,4 @@ draft: false
 lang: ''
 ---
 
-<span class="hover-text">Hover over me!<span class="hidden-text">Hidden Text</span></span>
-
-<style>
-.hover-text .hidden-text{
-  display:none;
-}
-.hover-text:hover .hidden-text{
-  display:inline-block;
-  position: absolute;
-  background-color: #f9f9f9;
-  border: 1px solid #ddd;
-  padding: 5px;
-}
-</style>
-
+<div class="spoiler">  <span class="spoiler-text">秘密内容</span> </div>  <style> .spoiler {   position: relative;   display: inline-block;   padding: 5px 10px;   background-color: transparent;   cursor: pointer; }  .spoiler::after {   content: "";   position: absolute;   top: 0;   left: 0;   width: 100%;   height: 100%;   background-color: black;   z-index: 1;   transition: opacity 0.3s ease; }  .spoiler:hover::after {   opacity: 0; } </style>
