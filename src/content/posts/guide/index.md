@@ -1,7 +1,7 @@
 ---
 title: 写博客指南
 published: 2024-04-01
-description: "How to use this blog template."
+description: "开始写你的第一个博客"
 image: "./cover.jpeg"
 tags: ["指南", "Blogging"]
 category: Guides
