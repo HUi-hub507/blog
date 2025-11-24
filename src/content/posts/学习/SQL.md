@@ -2,7 +2,7 @@
 title: SQL学习
 published: 2025-10-13
 description: 简单的SQL笔记
-image: ./cover.jpg
+image: ./background.png
 tags: ["SQL", "学习"]
 category: 学习
 draft: false
