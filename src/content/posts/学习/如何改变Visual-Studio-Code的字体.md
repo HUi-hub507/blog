@@ -18,7 +18,7 @@ draft: false
 
 进入下载链接后，下载懒人包，下载完毕后，解压打开选择自己喜欢的字体安装。
 
-![](D:\git\web\blog\src\content\posts\学习\image\vscode字体插入图片\image-20251226102445683.png)
+![](image\vscode字体插入图片\image-20251226102445683.png)
 
 我一般选择MapleMono-NF-CN-Regular.tff，双击打开后，点击右上角安装即可
 
