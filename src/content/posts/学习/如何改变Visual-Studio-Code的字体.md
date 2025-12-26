@@ -52,4 +52,4 @@ Visual Studio Code修改完后的格式如下。
 
 效果预览
 
-![](image/vscode字体插入图片/image-20251226103841279.png)
+![](./image/vscode字体插入图片/image-20251226103841279.png)
