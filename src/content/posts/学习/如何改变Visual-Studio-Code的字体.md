@@ -22,34 +22,34 @@ draft: false
 
 我一般选择MapleMono-NF-CN-Regular.tff，双击打开后，点击右上角安装即可
 
-![](D:\git\web\blog\src\content\posts\学习\image\vscode字体插入图片\image-20251226102802122.png)
+![](image\vscode字体插入图片\image-20251226102802122.png)
 
-![](D:\git\web\blog\src\content\posts\学习\image\vscode字体插入图片\image-20251226102849834.png)
+![](image\vscode字体插入图片\image-20251226102849834.png)
 
 ## 二、Visual Studio Code设置
 
 左上角-文件-首选项-设置
 
-![](D:\git\web\blog\src\content\posts\学习\image\vscode字体插入图片\image-20251226103029078.png)
+![](image\vscode字体插入图片\image-20251226103029078.png)
 
 常用设置里面，找到Editor:Font Family；Consolas,'Courier New',momospace，把'   '中间替换成你想要的字体即可。
 
-![](D:\git\web\blog\src\content\posts\学习\image\vscode字体插入图片\image-20251226103124728.png)
+![](image\vscode字体插入图片\image-20251226103124728.png)
 
 ## 三、如何寻找字体名字
 
 Windows-设置-个性化-字体
 
-![](D:\git\web\blog\src\content\posts\学习\image\vscode字体插入图片\image-20251226103407839.png)
+![](image\vscode字体插入图片\image-20251226103407839.png)
 
 在里面寻找之前安装的字体即可
 
-![](D:\git\web\blog\src\content\posts\学习\image\vscode字体插入图片\image-20251226103510830.png)
+![](image\vscode字体插入图片\image-20251226103510830.png)
 
 Visual Studio Code修改完后的格式如下。
 
-![](D:\git\web\blog\src\content\posts\学习\image\vscode字体插入图片\image-20251226103705369.png)
+![](image\vscode字体插入图片\image-20251226103705369.png)
 
 效果预览
 
-![](D:\git\web\blog\src\content\posts\学习\image\vscode字体插入图片\image-20251226103841279.png)
+![](image\vscode字体插入图片\image-20251226103841279.png)
