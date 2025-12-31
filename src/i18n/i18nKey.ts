@@ -1,5 +1,5 @@
 enum I18nKey {
-	home = "主页",
+	home = "home",
 	about = "about",
 	archive = "archive",
 	search = "search",

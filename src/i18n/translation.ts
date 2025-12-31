@@ -12,7 +12,7 @@ export type Translation = {
 	[K in I18nKey]: string;
 };
 
-const defaultTranslation = zh_CN;
+const defaultTranslation = en
 
 const map: { [key: string]: Translation } = {
 	es: es,
@@ -35,6 +35,6 @@ export function getTranslation(lang: string): Translation {
 }
 
 export function i18n(key: I18nKey): string {
-	const lang = siteConfig.lang || "zh_cn";
+	const lang = siteConfig.lang || "en";
 	return getTranslation(lang)[key];
 }
