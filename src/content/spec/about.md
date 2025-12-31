@@ -5,3 +5,4 @@
 
 ::github{repo="saicaca/fuwari"}
 
+[扑克里面有个洞]("Here is a hole in the poke.html")
