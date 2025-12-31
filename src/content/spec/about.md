@@ -5,5 +5,5 @@
 
 ::github{repo="saicaca/fuwari"}
 
-<iframe src="Here_is_a_hole_in_the_poke.html" width="100%" height="1500px">
+<iframe src="./../../../public/Here_is_a_hole_in_the_poke.html" width="100%" height="1500px">
 </iframe>
