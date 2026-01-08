@@ -25,7 +25,7 @@ SELECT ... FROM 左表 RIGHT JOIN 右表 ON 连接条件
 
 OVER()是窗口函数，在我的理解里面是直接返回一个新行，具体可以看下面的例子
 
-```SQL
+```sql
 SELECT 
 	student_name,
 	grade
@@ -56,7 +56,7 @@ FROM student_grade;
 
 三、CASE WHEN THEN ELSE END
 
-```SQL
+```sql
 SELECT ... 
 	CASE
 		WHEN 条件1 THEN 结果1
