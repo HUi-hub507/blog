@@ -71,3 +71,58 @@ import numpy as np
 np.select(条件, 结果, default=‘默认值’)
 ```
 
+二、计算固定数量间隔的总和或平均（比如1-5,2-6,3-7这种）
+
+```python
+df表['字段'].rolling(window=间隔).聚合函数()
+#案例，每隔五个计算一次平均分数，1号到5号，2号到6号...
+df_avg = df_score["score"].rolling(window = 5).mean()
+```
+
+三、pd.data_range()用法
+
+```python
+#语法规则
+pd.date_range(start=None, end=None, periods=None, freq='D', tz=None, normalize=False, name=None, closed=None, **kwargs)
+#start：开始日期；end：结束日期；periods：需要生成的时间数量，
+#freq：频率或者说计算单位，默认是“D”，表示天，常见的还有“B”，工作日；“W”，周；“M”，月末；“MS”，月初；“Y”,年末；“YS”，月初；还可以使用复合频率，比如“2D”表示每两天。
+#closed：表示是否闭合，可以是“left”或者“right”，默认是None，表示两端闭合，“left”表示左端闭合，右端开，即不包括最后一天。
+
+#案例，从2023-01-10开始的日期，一共一百天
+dates = pd.date_range(start='2023-01-01', periods=100)
+#案例，从2023-01-01开始，到2023-12-31结束
+dates = pd.date_range(start="2023-01-01", end="2023-12-31")
+#案例，从2023-12-31结束，往前算5天
+dates = pd.date_range(end="2023-12-31", periods=5,freq="D")
+```
+
+四、groupby()用法
+
+```python
+df表.groupby("字段")['字段'].聚合函数()
+#举例
+import pandas as pd
+import numpy as np
+
+# 创建示例数据
+np.random.seed(42)
+df = pd.DataFrame({
+    'Product': ['A', 'B', 'A', 'C', 'B', 'A', 'C', 'B', 'A', 'C'],
+    'TotalSale': [100, 200, 150, 300, 250, 120, 400, 180, 210, 350],
+    'Quantity': [5, 10, 8, 15, 12, 6, 20, 9, 11, 18]
+})
+
+print("原始数据：")
+print(df)
+print("\n按产品类型分组计算价格总额", df.groupby('Product')['TotalSale'].sum())
+```
+
+五、sort_values()用法
+
+```python
+series.sort_values(ascending=True/False)
+#将数组进行排序，ascending=True代表升序，Flase代表降序
+#组合使用，按照产品类型分组计算价格总额，并且降序排列
+product_sales = df.groupby('Product')['TotalSale'].sum().sort_values(ascending=False)
+```
+
