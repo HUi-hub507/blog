@@ -1,6 +1,6 @@
 ---
 title: Docker部署frp的指令
-published: 2025-1-27
+published: 2026-01-27
 description: 一个教程，关于怎么使用Docker部署frp
 image: ./image/深海色.png
 tags: ["Docker", "学习"]
